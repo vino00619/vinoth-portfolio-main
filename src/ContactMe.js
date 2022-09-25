@@ -40,7 +40,7 @@ export function ContactMe() {
         <h5>
           <strong>Email</strong>
         </h5>
-        <p>pradeepdeep82@gmail.com</p>
+        <p>vinoth00619@gmail.com</p>
       </div>
       <div className="col-sm-3 email" data-aos="fade-up">
         <GitHubIcon
@@ -50,12 +50,12 @@ export function ContactMe() {
           <strong>Github</strong>
         </h5>
         <a
-          href="https://github.com/pradeepdeep82"
+          href="https://github.com/vino00619"
           target="_blank"
           rel="noreferrer"
           style={{ textDecoration: "none" }}
         >
-          pradeepdeep82
+          Vinoth Manoharan
         </a>
       </div>
 
@@ -67,12 +67,12 @@ export function ContactMe() {
           <strong>LinkedIn</strong>
         </h5>
         <a
-          href="https://www.linkedin.com/in/pradeep-ganapathi-010134141/"
+          href="https://www.linkedin.com/in/vinoth-manoharan-7437b1a3/"
           target="_blank"
           rel="noreferrer"
           style={{ textDecoration: "none" }}
         >
-          pradeep-ganapathi
+          Vinoth Manoharan
         </a>
       </div>
     </div>

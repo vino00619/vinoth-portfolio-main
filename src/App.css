@@ -57,7 +57,7 @@ html,body{
   position: relative;
   top:8px;
 }
-.pardeep{
+.vinoth{
   color: #3b82f6;
 }
 .projectGitBtn{
@@ -157,7 +157,7 @@ html,body{
   text-align: center;
   padding:2vw 10vw 2vw 10vw;
   font-size: 20px;
-
+  list-style-type:none;
 }
 .contactIconInAboutMe{
   position: absolute;

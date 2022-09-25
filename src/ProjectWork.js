@@ -25,7 +25,7 @@ export function ProjectWork() {
             Bootstrap, JWT for authorization and forgot passsword, Express, mongoDB.
           </p>
           <a
-            href="https://gmail-clone-pradeep.netlify.app"
+            href="null"
             target="_blank"
             rel="noreferrer"
           >
@@ -35,7 +35,7 @@ export function ProjectWork() {
             </button>
           </a>
           <a
-            href="https://github.com/pradeepdeep82/gmail-clone-frontend"
+            href="null"
             target="_blank"
             rel="noreferrer"
           >
@@ -57,7 +57,7 @@ export function ProjectWork() {
             Bootstrap, Material UI, JWT for authorization and forgot passsword, Express, mongoDB.
           </p>
           <a
-            href="https://to-do-app-pradeep.netlify.app"
+            href="null"
             target="_blank"
             rel="noreferrer"
           >
@@ -67,7 +67,7 @@ export function ProjectWork() {
             </button>
           </a>
           <a
-            href="https://github.com/pradeepdeep82/to-do-list-authorization-frontend"
+            href="null"
             target="_blank"
             rel="noreferrer"
           >
@@ -90,7 +90,7 @@ export function ProjectWork() {
           </p>
           <p>Admin Page with add, modify and remove products feature</p>
           <a
-            href="https://e-commerce-app-pradeep.netlify.app"
+            href="null"
             target="_blank"
             rel="noreferrer"
           >
@@ -100,7 +100,7 @@ export function ProjectWork() {
             </button>
           </a>
           <a
-            href="https://github.com/pradeepdeep82/e-commerce-app-frontend"
+            href="null"
             target="_blank"
             rel="noreferrer"
           >
@@ -122,7 +122,7 @@ export function ProjectWork() {
             JavaScript, Bootstrap
           </p>
           <a
-            href="https://weather-app-pradeep.netlify.app/"
+            href="null"
             target="_blank"
             rel="noreferrer"
           >
@@ -132,7 +132,7 @@ export function ProjectWork() {
             </button>
           </a>
           <a
-            href="https://github.com/pradeepdeep82/Weather-App"
+            href="null"
             target="_blank"
             rel="noreferrer"
           >
