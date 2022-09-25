@@ -6,6 +6,7 @@ import SchoolIcon from "@mui/icons-material/School";
 import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import TextSnippetIcon from '@mui/icons-material/TextSnippet';
 import AOS from "aos";
 import{AboutMe} from "./AboutMe"
 import { ContactMe } from "./ContactMe";
@@ -139,7 +140,7 @@ function App() {
         <div className="projectGitBtn">
           <Link smooth to={"#projects"}>
             <button type="button" class="btn btn-primary btn">
-              <CodeIcon />
+              <CodeIcon />  <span>- </span>
               Projects
             </button>
           </Link>
@@ -149,8 +150,18 @@ function App() {
             rel="noreferrer"
           >
             <button type="button" class="btn btn-outline-primary btn gitbtn">
-              <GitHubIcon />
+              <GitHubIcon />  <span>- </span>
               Github
+            </button>
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1LcYOLfArQe_i-QOK-jIiLYLcyrZUK-dv/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button type="button" class="btn btn-primary gitbtn">
+              <TextSnippetIcon /> <span>- </span>
+               Resume
             </button>
           </a>
         </div>
