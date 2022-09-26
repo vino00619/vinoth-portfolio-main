@@ -106,10 +106,14 @@ html,body{
   padding: 30px;
   padding-left: 15vw;
 }
+#arunai{
+  padding-top: 75px;
+}
 
 .msc{
-  padding-top: 9vh;
+  padding-top: 12vh;
   padding-left: 20vw;
+  padding-bottom: 8vw;
 }
 .projectWork{
   background-color: #212529;
@@ -171,4 +175,12 @@ html,body{
   .intro{
     font-size: 65px;
   }
+}
+
+/* .footerHover a:hover{
+  color: "#3b82f6"
+} */
+
+.footerHover a:hover {
+  background-color: gray;
 }

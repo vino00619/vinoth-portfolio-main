@@ -10,7 +10,7 @@ export function AboutMe() {
         </div>
         <div>
           <p className="mySelfAbout" data-aos="zoom-in">
-            I am a determined and self-motivated person with a Masters in Remote Sensing and Geomatics. 
+            I am a determined and self-motivated person with a Masters degree in Remote Sensing and Geomatics. 
             I have learned full stack web development and have hands-on experience.
           </p>
         </div>

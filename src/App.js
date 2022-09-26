@@ -108,7 +108,7 @@ function App() {
             </div>
           </div>
         </nav>
-        <div className="contactIconInAboutMe"> 
+        {/* <div className="contactIconInAboutMe"> 
         <a
           href="https://www.linkedin.com/in/vinoth-manoharan-7437b1a3/"
           target="_blank"
@@ -129,7 +129,7 @@ function App() {
           sx={{ fontSize: 60, color: "whitesmoke" }}
           className="emailIcon" />
         </a>
-        </div>
+        </div> */}
         
         <div className="row selfIntro">
           <span className="intro" >
@@ -138,12 +138,22 @@ function App() {
           <p>I'm a Full Stack Developer</p>
         </div>
         <div className="projectGitBtn">
-          <Link smooth to={"#projects"}>
+          {/* <Link smooth to={"#projects"}>
             <button type="button" class="btn btn-primary btn">
               <CodeIcon />  <span>- </span>
               Projects
             </button>
-          </Link>
+          </Link> */}
+          <a
+            href="https://www.linkedin.com/in/vinoth-manoharan-7437b1a3/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button type="button" class="btn btn-primary gitbtn">
+              <LinkedInIcon /> <span>- </span>
+               <strong style={{ letterSpacing: "1px" }}>LinkedIn</strong>
+            </button>
+          </a>
           <a
             href="https://github.com/vino00619"
             target="_blank"
@@ -151,7 +161,7 @@ function App() {
           >
             <button type="button" class="btn btn-outline-primary btn gitbtn">
               <GitHubIcon />  <span>- </span>
-              Github
+              <strong style={{ letterSpacing: "1px", fontSize:"17px" }}>Github</strong>
             </button>
           </a>
           <a
@@ -161,7 +171,7 @@ function App() {
           >
             <button type="button" class="btn btn-primary gitbtn">
               <TextSnippetIcon /> <span>- </span>
-               Resume
+              <strong style={{ letterSpacing: "1px" }}>Resume</strong>
             </button>
           </a>
         </div>
