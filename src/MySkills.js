@@ -10,6 +10,8 @@ import expressLogo from "./logo/express-js-seeklogo.com.svg";
 import mongoLogo from "./logo/mongodb-icon-1.svg";
 import firebaseLogo from "./logo/firebase-seeklogo.com.svg";
 import awsLogo from "./logo/aws-2.svg";
+import postman from "./logo/postman.png";
+import redux from "./logo/redux.png";
 import AOS from "aos";
 AOS.init();
 
@@ -26,17 +28,18 @@ export function MySkills() {
             className="offset-sm-3 col-sm-1 logoWithTag"
             style={{ marginTop: "70px" }}
           >
-            <img className="skillsLogo" src={htmlLogo} alt="htmlLogo" />
+            <img className="skillsLogo" style={{ height: "65px" }} src={htmlLogo} alt="htmlLogo" />
             <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>HTML</p>
           </div>
           <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
-            <img className="skillsLogo" src={cssLogo} alt="cssLogo" />
+            <img className="skillsLogo" style={{ height: "65px" }} src={cssLogo} alt="cssLogo" />
             <p style={{ paddingLeft: "2px", paddingTop: "10px" }}>CSS</p>
           </div>
           <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
             <img
               className="skillsLogo"
               src={javascriptLogo}
+              style={{ height: "65px" }}
               alt="javascriptLogo"
             />
             <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>
@@ -44,12 +47,13 @@ export function MySkills() {
             </p>
           </div>
           <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
-            <img className="skillsLogo" src={reactLogo} alt="reactLogo" />
+            <img className="skillsLogo" style={{ height: "65px" }} src={reactLogo} alt="reactLogo" />
             <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>React</p>
           </div>
           <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
             <img
               className="skillsLogo"
+              style={{ height: "65px" }}
               src={materialUiLogo}
               alt="materialUiLogo"
             />
@@ -58,36 +62,45 @@ export function MySkills() {
             </p>
           </div>
           <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
-            <img className="skillsLogo" src={nodeLogo} alt="nodeLogo" />
+            <img className="skillsLogo" style={{ height: "65px" }} src={nodeLogo} alt="nodeLogo" />
             <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>Node.js</p>
           </div>
         </div>
         <div className="row" data-aos="zoom-in">
           <div
-            className="offset-sm-4 col-sm-1 logoWithTag"
+            className="offset-sm-3 col-sm-1 logoWithTag"
             style={{ marginTop: "70px" }}
           >
-            <img className="skillsLogo" src={gitLogo} alt="gitLogo" />
+            <img className="skillsLogo" style={{ height: "65px" }} src={gitLogo} alt="gitLogo" />
             <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>Git</p>
           </div>
 
           <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
             <img
               className="skillsLogo"
+              style={{ height: "65px" }}
               src={bootstrapLogo}
               alt="bootstrapLogo"
             />
             <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>Bootstrap</p>
           </div>
           <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
-            <img className="skillsLogo" src={expressLogo} alt="mongo db" />
+            <img className="skillsLogo" style={{ height: "65px" }} src={expressLogo} alt="mongo db" />
             <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>
-              express.js
+              Express.js
             </p>
           </div>
           <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
-            <img className="skillsLogo" src={mongoLogo} alt="mongo db" />
+            <img className="skillsLogo" style={{ height: "65px" }} src={mongoLogo} alt="mongo db" />
             <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>mongoDB</p>
+          </div>
+          <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
+            <img className="skillsLogo" style={{ height: "65px" }} src={postman} alt="mongo db" />
+            <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>Postman</p>
+          </div>
+          <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
+            <img className="skillsLogo" style={{ height: "65px" }} src={redux} alt="mongo db" />
+            <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>Redux</p>
           </div>
           {/* <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
             <img className="skillsLogo" src={firebaseLogo} alt="firebaseLogo" />
