@@ -22,7 +22,7 @@ export function AboutMe() {
         </div>
         <div>
           <ul className="mySelfAbout" data-aos="zoom-in">
-             <li><img style={{height:"40px"}} src={trekking} alt="trekking"/> Tekking</li><br />
+             <li><img style={{height:"40px"}} src={trekking} alt="trekking"/> Trekking</li><br />
              <li><img style={{height:"30px"}} src={book} alt="book"/>  Reading Books</li><br />
              <li ><img style={{height:"30px"}} src={badminton} alt="badminton"/>  Badminton</li>
           </ul>
