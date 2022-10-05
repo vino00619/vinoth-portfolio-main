@@ -5,6 +5,7 @@ import weatherAppImage from "./logo/weather-app-screenshot.PNG";
 import travelStories from "./logo/travel-stories.JPG";
 import googleKeeper from "./logo/google-keeper.JPG";
 import chat2meet from "./logo/chat2meet.JPG";
+import blog from "./logo/blog.JPG";
 import eCommerceAppImage from "./logo/e-commerce-app-screenshot.PNG";
 import LaunchIcon from '@mui/icons-material/Launch';
 import AOS from "aos";
@@ -53,17 +54,19 @@ export function ProjectWork() {
 {/* ..................................................... */}
 <div className="row" style={{ marginTop: "40px" }} data-aos="zoom-in">
         <div className="offset-sm-1 col-sm-5 moblieView">
-          <img style={{ borderRadius: "10px" }} src={eCommerceAppImage} alt="E Commerce App" width="100%"></img>
+          <img style={{ borderRadius: "10px" }} src={blog} alt="Blog App" width="100%"></img>
         </div>
         <div className="col-sm-5 moblieView" style={{ color: "whitesmoke" }}>
-          <h4>E Commerce App</h4>
+        <a href="https://blog1-app.netlify.app/account"
+            target="_blank"
+            rel="noreferrer" style={{ fontSize: "30px", textDecoration: "underline", color:"white", fontWeight:"bold" }}>Travel Stories <LaunchIcon style={{fontSize:"medium"}}/></a> <br />
           <p>
-            <span style={{ color: "gray" }}>Made with: </span>React,
-            Bootstrap, Material UI, JWT for authorization and forgot passsword, Express, mongoDB.
+            <span style={{ color:"#38ef7d" }}>About: </span>A Blog app using React, Axios, Node, Express and MongoDB. <br /> <br />
+            <span style={{ color:"#38ef7d" }}>Usage: </span>This application, allows you to create and publish your blog among the blog users.
           </p>
-          <p>Admin Page with add, modify and remove products feature</p>
+
           <a
-            href="null"
+            href="https://blog1-app.netlify.app/account"
             target="_blank"
             rel="noreferrer"
           >
@@ -73,7 +76,7 @@ export function ProjectWork() {
             </button>
           </a>
           <a
-            href="null"
+            href="https://github.com/vino00619/blog_app-frontend"
             target="_blank"
             rel="noreferrer"
           >

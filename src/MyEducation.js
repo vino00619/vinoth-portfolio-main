@@ -8,7 +8,7 @@ export function MyEducation() {
     
     <div className="topic" data-aos="zoom-in">
       <span>My</span>
-      <span style={{ paddingLeft: "8px", color: "#3b82f6" }}>
+      <span style={{ paddingLeft: "8px", color: "#38ef7d" }}>
         Education
       </span>
     </div>
@@ -29,7 +29,7 @@ export function MyEducation() {
           <img style={{ height: "80px"}} src={Arunai} alt="Arunai logo" />
         </div>
         <div className="col-sm-9 msc">
-          <p>2015</p>
+          <p>Passed out - 2015</p>
           <p>Arunai Engineering College - Bachelor's in Civil Engineering</p>
           <strong>CGPA - 6.7/10</strong>
         </div>
