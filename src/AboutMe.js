@@ -6,7 +6,7 @@ export function AboutMe() {
       
         <div className="topic" data-aos="zoom-in">
           <span style={{ color: "white" }}>About</span>
-          <span style={{ paddingLeft: "8px", color: "#3b82f6" }}>Me</span>
+          <span style={{ paddingLeft: "8px", color: "#38ef7d" }}>Me</span>
         </div>
         <div>
           <p className="mySelfAbout" data-aos="zoom-in">
@@ -15,7 +15,7 @@ export function AboutMe() {
           </p>
         </div>
         <div className="topic" style={{ paddingTop: "0px" }} data-aos="zoom-in">
-          <span style={{ paddingLeft: "8px", color: "#3b82f6" }}>Interest</span>
+          <span style={{ paddingLeft: "8px", color: "#38ef7d" }}>Interest</span>
         </div>
         <div>
           <ul className="mySelfAbout" data-aos="zoom-in">
@@ -25,7 +25,7 @@ export function AboutMe() {
           </ul>
         </div>
         <div className="topic" style={{ paddingTop: "0px" }} data-aos="zoom-in">
-        <span style={{ color: "#3b82f6" }}>Languages</span>
+        <span style={{ color: "#38ef7d" }}>Languages</span>
           <span style={{ paddingLeft: "8px", color: "white" }}>Known</span>
         </div>
         <div data-aos="zoom-in">

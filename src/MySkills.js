@@ -20,7 +20,7 @@ export function MySkills() {
     <div className="mySkills" id="skills">
       <div className="topic" data-aos="zoom-in">
         <span>My</span>
-        <span style={{ paddingLeft: "08px", color: "#3b82f6" }}>Skills</span>
+        <span style={{ paddingLeft: "08px", color:"#38ef7d" }}>Skills</span>
       </div>
       <div>
         <div className="row" data-aos="zoom-in">

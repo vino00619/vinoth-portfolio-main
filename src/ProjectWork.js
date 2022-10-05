@@ -2,8 +2,11 @@ import toDoAppImage from "./logo/to-do-app-auth-screenshot.PNG";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import weatherAppImage from "./logo/weather-app-screenshot.PNG";
-import mailAppImage from "./logo/mail-app-screenshot.PNG";
-import eCommerceAppImage from "./logo/e-commerce-app-screenshot.PNG"
+import travelStories from "./logo/travel-stories.JPG";
+import googleKeeper from "./logo/google-keeper.JPG";
+import chat2meet from "./logo/chat2meet.JPG";
+import eCommerceAppImage from "./logo/e-commerce-app-screenshot.PNG";
+import LaunchIcon from '@mui/icons-material/Launch';
 import AOS from "aos";
 AOS.init();
 
@@ -12,75 +15,45 @@ export function ProjectWork() {
     <div className="projectWork" id="projects" >
       <div className="topic" data-aos="zoom-in">
         <span style={{ color: "white" }}>Projects &</span>
-        <span style={{ paddingLeft: "8px", color: "#3b82f6" }}>Work</span>
+        <span style={{ paddingLeft: "8px", color:"#38ef7d" }}>Work</span>
       </div>
       <div className="row" style={{ marginTop: "40px" }} data-aos="zoom-in">
         <div className="offset-sm-1 col-sm-5 moblieView">
-          <img src={mailAppImage} alt="Mail App" width="100%"></img>
+          <img style={{ borderRadius: "10px" }} src={travelStories} alt="Travel Stories" width="100%"></img>
         </div>
         <div className="col-sm-5 moblieView" style={{ color: "whitesmoke" }}>
-          <h4>Mail App</h4>
+          <a href="https://travel-stories-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer" style={{ fontSize: "30px", textDecoration: "underline", color:"white", fontWeight:"bold" }}>Travel Stories <LaunchIcon style={{fontSize:"medium"}}/></a> <br />
           <p>
-            <span style={{ color: "gray" }}>Made with: </span>React, Material UI,
-            Bootstrap, JWT for authorization and forgot passsword, Express, mongoDB.
+            <span style={{ color:"#38ef7d" }}>About: </span>Travel app using React, Map box, Node, Express and MongoDB. <br /> <br />
+            <span style={{ color:"#38ef7d" }}>Usage: </span>In this application, you can pin the location you visited and share your reviews with other users.
           </p>
           <a
-            href="null"
+            href="https://travel-stories-app.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <button type="button" class="btn btn-primary btn">
-              <YouTubeIcon />
-              <span>Demo</span>
+            <button type="button" class="btn btn-primary btn" style={{ backgroundColor:"#00674b", borderColor:"#00674b" }}>
+            <LaunchIcon style={{fontSize:"25px"}}/>
+              <span> Go</span>
             </button>
           </a>
           <a
-            href="null"
+            href="https://github.com/vino00619/map-frontend"
             target="_blank"
             rel="noreferrer"
           >
-            <button type="button" class="btn btn-outline-primary btn gitbtn">
-              <GitHubIcon />
-              Code
+            <button type="button" class="btn btn gitbtn" style={{ color:"#38ef7d", borderColor:"#38ef7d", fontWeight:"bolder", fontSize:"18px" }}>
+              <GitHubIcon /> Code
             </button>
           </a>
         </div>
       </div>
-      <div className="row" style={{ marginTop: "40px" }} data-aos="zoom-in">
+{/* ..................................................... */}
+<div className="row" style={{ marginTop: "40px" }} data-aos="zoom-in">
         <div className="offset-sm-1 col-sm-5 moblieView">
-          <img src={toDoAppImage} alt="to-do-app" width="100%"></img>
-        </div>
-        <div className="col-sm-5 moblieView" style={{ color: "whitesmoke" }}>
-          <h4>To Do List App</h4>
-          <p>
-            <span style={{ color: "gray" }}>Made with: </span>React,
-            Bootstrap, Material UI, JWT for authorization and forgot passsword, Express, mongoDB.
-          </p>
-          <a
-            href="null"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button type="button" class="btn btn-primary btn">
-              <YouTubeIcon />
-              <span>Demo</span>
-            </button>
-          </a>
-          <a
-            href="null"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button type="button" class="btn btn-outline-primary btn gitbtn">
-              <GitHubIcon />
-              Code
-            </button>
-          </a>
-        </div>
-      </div>
-      <div className="row" style={{ marginTop: "40px" }} data-aos="zoom-in">
-        <div className="offset-sm-1 col-sm-5 moblieView">
-          <img src={eCommerceAppImage} alt="E Commerce App" width="100%"></img>
+          <img style={{ borderRadius: "10px" }} src={eCommerceAppImage} alt="E Commerce App" width="100%"></img>
         </div>
         <div className="col-sm-5 moblieView" style={{ color: "whitesmoke" }}>
           <h4>E Commerce App</h4>
@@ -94,9 +67,9 @@ export function ProjectWork() {
             target="_blank"
             rel="noreferrer"
           >
-            <button type="button" class="btn btn-primary btn">
-              <YouTubeIcon />
-              <span>Demo</span>
+            <button type="button" class="btn btn-primary btn" style={{ backgroundColor:"#00674b", borderColor:"#00674b" }}>
+            <LaunchIcon style={{fontSize:"25px"}}/>
+              <span> Go</span>
             </button>
           </a>
           <a
@@ -104,41 +77,78 @@ export function ProjectWork() {
             target="_blank"
             rel="noreferrer"
           >
-            <button type="button" class="btn btn-outline-primary btn gitbtn">
-              <GitHubIcon />
-              Code
+            <button type="button" class="btn btn gitbtn" style={{ color:"#38ef7d", borderColor:"#38ef7d", fontWeight:"bolder", fontSize:"18px" }}>
+              <GitHubIcon /> Code
             </button>
           </a>
         </div>
       </div>
+{/* ----------------------------------------------------------------- */}
       <div className="row" style={{ marginTop: "40px" }} data-aos="zoom-in">
         <div className="offset-sm-1 col-sm-5 moblieView">
-          <img src={weatherAppImage} alt="weatherApp" width="100%"></img>
+          <img style={{ borderRadius: "10px" }} src={chat2meet} alt="chat2meet" width="100%" ></img>
         </div>
         <div className="col-sm-5 moblieView" style={{ color: "whitesmoke" }}>
-          <h4>Weather App</h4>
+        <a href="https://chat2meet.netlify.app/"
+            target="_blank"
+            rel="noreferrer" style={{ fontSize: "30px", textDecoration: "underline", color:"white", fontWeight:"bold" }}>Chat 2 Meet <LaunchIcon style={{fontSize:"medium"}}/></a> <br />
           <p>
-            <span style={{ color: "gray" }}>Made with: </span>HTML, CSS,
-            JavaScript, Bootstrap
+            <span style={{ color:"#38ef7d" }}>About: </span>Chat 2 Meet app using React, Redux, Node, Express and Mongoose. <br /> <br />
+            <span style={{ color:"#38ef7d" }}>Usage: </span>This application allows you to chat with other 'chat 2 meet' users.
+          </p>
+          <a
+            href="https://chat2meet.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button type="button" class="btn btn-primary btn" style={{ backgroundColor:"#00674b", borderColor:"#00674b" }}>
+            <LaunchIcon style={{fontSize:"25px"}}/>
+              <span> Go</span>
+            </button>
+          </a>
+          <a
+            href="https://github.com/vino00619/ChatApp-Frontend"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button type="button" class="btn btn gitbtn" style={{ color:"#38ef7d", borderColor:"#38ef7d", fontWeight:"bolder", fontSize:"18px" }}>
+              <GitHubIcon /> Code
+            </button>
+          </a>
+        </div>
+      </div>
+{/* ..................................................... */}
+      
+{/* ..................................................... */}
+      <div className="row" style={{ marginTop: "40px", paddingBottom: "50px" }} data-aos="zoom-in">
+        <div className="offset-sm-1 col-sm-5 moblieView">
+          <img style={{ borderRadius: "10px" }} src={googleKeeper} alt="weatherApp" width="100%"></img>
+        </div>
+        <div className="col-sm-5 moblieView" style={{ color: "whitesmoke" }}>
+        <a href="https://chat2meet.netlify.app/"
+            target="_blank"
+            rel="noreferrer" style={{ fontSize: "30px", textDecoration: "underline", color:"white", fontWeight:"bold" }}>Google Keeper <LaunchIcon style={{fontSize:"medium"}}/></a> <br />
+          <p>
+            <span style={{ color:"#38ef7d" }}>About: </span>React front end application using react-dom, material-ui libraries.<br /> <br />
+            <span style={{ color:"#38ef7d" }}>Usage: </span>This application allows you to chat with other 'chat 2 meet' users.
           </p>
           <a
             href="null"
             target="_blank"
             rel="noreferrer"
           >
-            <button type="button" class="btn btn-primary btn">
-              <YouTubeIcon />
-              <span>Demo</span>
+            <button type="button" class="btn btn-primary btn" style={{ backgroundColor:"#00674b", borderColor:"#00674b" }}>
+            <LaunchIcon style={{fontSize:"25px"}}/>
+              <span> Go</span>
             </button>
           </a>
           <a
-            href="null"
+            href="https://google-keeper-clone-frontend.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <button type="button" class="btn btn-outline-primary btn gitbtn">
-              <GitHubIcon />
-              Code
+            <button type="button" class="btn btn gitbtn" style={{ color:"#38ef7d", borderColor:"#38ef7d", fontWeight:"bolder", fontSize:"18px" }}>
+              <GitHubIcon /> Code
             </button>
           </a>
         </div>

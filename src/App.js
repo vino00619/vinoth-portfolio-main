@@ -22,6 +22,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 AOS.init();
 
 function App() {
+
+
   return (
     <div className="Container-fluid">
       
@@ -133,7 +135,7 @@ function App() {
         
         <div className="row selfIntro">
           <span className="intro" >
-            Hi, I'm <span className="vinoth">Vinoth Manoharan</span>
+            Hi, I'm <span style={{ color:"#38ef7d"}} className="vinoth">Vinoth Manoharan</span>
           </span>
           <p>I'm a Full Stack Developer</p>
         </div>
@@ -149,9 +151,9 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <button type="button" class="btn btn-primary gitbtn">
+            <button type="button" class="btn btn-primary gitbtn" style={{ backgroundColor:"#00674b", borderColor: "#007965"}}>
               <LinkedInIcon /> <span>- </span>
-               <strong style={{ letterSpacing: "1px" }}>LinkedIn</strong>
+               <strong style={{ letterSpacing: "1px",  }}>LinkedIn</strong>
             </button>
           </a>
           <a
@@ -159,7 +161,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <button type="button" class="btn btn-outline-primary btn gitbtn">
+            <button type="button" class="btn btn-outline btn gitbtn"  style={{ borderColor: "#007965", color:"#007965"}}>
               <GitHubIcon />  <span>- </span>
               <strong style={{ letterSpacing: "1px", fontSize:"17px" }}>Github</strong>
             </button>
@@ -169,14 +171,14 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <button type="button" class="btn btn-primary gitbtn">
+            <button type="button" class="btn btn-primary gitbtn " style={{ backgroundColor:"#00674b", borderColor: "#007965"}}>
               <TextSnippetIcon /> <span>- </span>
               <strong style={{ letterSpacing: "1px" }}>Resume</strong>
             </button>
           </a>
         </div>
         <Link smooth to={"#"}>
-          <KeyboardArrowUpIcon sx={{ fontSize: 40 }} className="upIcon" />
+          <KeyboardArrowUpIcon sx={{ backgroundColor:"#00674b", fontSize: 40 }} className="upIcon" />
         </Link>
       </div>
       <MySkills />
