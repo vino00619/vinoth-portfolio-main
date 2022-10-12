@@ -59,7 +59,7 @@ export function ProjectWork() {
         <div className="col-sm-5 moblieView" style={{ color: "whitesmoke" }}>
         <a href="https://blog1-app.netlify.app/account"
             target="_blank"
-            rel="noreferrer" style={{ fontSize: "30px", textDecoration: "underline", color:"white", fontWeight:"bold" }}>Travel Stories <LaunchIcon style={{fontSize:"medium"}}/></a> <br />
+            rel="noreferrer" style={{ fontSize: "30px", textDecoration: "underline", color:"white", fontWeight:"bold" }}>Blog Application <LaunchIcon style={{fontSize:"medium"}}/></a> <br />
           <p>
             <span style={{ color:"#38ef7d" }}>About: </span>A Blog app using React, Axios, Node, Express and MongoDB. <br /> <br />
             <span style={{ color:"#38ef7d" }}>Usage: </span>This application, allows you to create and publish your blog among the blog users.
