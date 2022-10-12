@@ -133,7 +133,7 @@ export function ProjectWork() {
             rel="noreferrer" style={{ fontSize: "30px", textDecoration: "underline", color:"white", fontWeight:"bold" }}>Google Keeper <LaunchIcon style={{fontSize:"medium"}}/></a> <br />
           <p>
             <span style={{ color:"#38ef7d" }}>About: </span>React front end application using react-dom, material-ui libraries.<br /> <br />
-            <span style={{ color:"#38ef7d" }}>Usage: </span>This application allows you to chat with other 'chat 2 meet' users.
+            <span style={{ color:"#38ef7d" }}>Usage: </span>This application allows you to take personal notes on the go.
           </p>
           <a
             href="https://google-keeper-clone-frontend.netlify.app/"
