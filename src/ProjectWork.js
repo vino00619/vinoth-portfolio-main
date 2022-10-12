@@ -128,7 +128,7 @@ export function ProjectWork() {
           <img style={{ borderRadius: "10px" }} src={googleKeeper} alt="weatherApp" width="100%"></img>
         </div>
         <div className="col-sm-5 moblieView" style={{ color: "whitesmoke" }}>
-        <a href="https://chat2meet.netlify.app/"
+        <a href="https://google-keeper-clone-frontend.netlify.app/"
             target="_blank"
             rel="noreferrer" style={{ fontSize: "30px", textDecoration: "underline", color:"white", fontWeight:"bold" }}>Google Keeper <LaunchIcon style={{fontSize:"medium"}}/></a> <br />
           <p>
@@ -136,7 +136,7 @@ export function ProjectWork() {
             <span style={{ color:"#38ef7d" }}>Usage: </span>This application allows you to chat with other 'chat 2 meet' users.
           </p>
           <a
-            href="null"
+            href="https://google-keeper-clone-frontend.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
