@@ -146,7 +146,7 @@ export function ProjectWork() {
             </button>
           </a>
           <a
-            href="https://google-keeper-clone-frontend.netlify.app/"
+            href="https://github.com/vino00619/Google_Keeper_Frontend"
             target="_blank"
             rel="noreferrer"
           >
