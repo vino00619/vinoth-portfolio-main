@@ -57,9 +57,9 @@ export function ProjectWork() {
           <img style={{ borderRadius: "10px" }} src={cryptoapp} alt="cryptoapp" width="100%"></img>
         </div>
         <div className="col-sm-5 moblieView" style={{ color: "whitesmoke" }}>
-        <a href="https://blog1-app.netlify.app/account"
+        <a href="https://crypto-finder-01.netlify.app/"
             target="_blank"
-            rel="noreferrer" style={{ fontSize: "30px", textDecoration: "underline", color:"white", fontWeight:"bold" }}>Blog Application <LaunchIcon style={{fontSize:"medium"}}/></a> <br />
+            rel="noreferrer" style={{ fontSize: "30px", textDecoration: "underline", color:"white", fontWeight:"bold" }}>Crypto Tracker <LaunchIcon style={{fontSize:"medium"}}/></a> <br />
           <p>
             <span style={{ color:"#38ef7d" }}>About: </span>A crypto tracking app using React, Axios and chartjs2. <br /> <br />
             <span style={{ color:"#38ef7d" }}>Usage: </span>This application, allows you to explore various information and previous price history of several crypto currencies.
