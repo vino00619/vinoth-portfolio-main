@@ -84,7 +84,7 @@ function App() {
               </Link>
               
                 <a 
-                  href="https://drive.google.com/file/d/1QL43DEr_wVxICHw4g4oi9iHQOUBbSUEF/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1wgLWXbv2UrTihhYGhVzYUtiLMbT7Cnc9/view?usp=drive_link"
                   rel="noreferrer"
                   target="_blank"
                   className="menuData"
@@ -167,7 +167,7 @@ function App() {
             </button>
           </a>
           <a
-            href="https://drive.google.com/file/d/1QL43DEr_wVxICHw4g4oi9iHQOUBbSUEF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1wgLWXbv2UrTihhYGhVzYUtiLMbT7Cnc9/view?usp=drive_link"
             target="_blank"
             rel="noreferrer"
           >
